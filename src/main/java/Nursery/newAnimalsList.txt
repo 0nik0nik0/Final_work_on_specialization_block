@@ -1,0 +1,5 @@
+Cat,Tom,sleep
+Dog,dog,stay
+Hamster,chack,sit
+Cat,fat,eat
+Cat,tobby,jump
