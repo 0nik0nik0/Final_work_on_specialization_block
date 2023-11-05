@@ -17,5 +17,6 @@ public class Hamster extends Animal {
     public void teachNewCommand(String command) {
         String updatedSkills = getSkills() + "," + command;
         setSkills(updatedSkills);
+        System.out.println("Hamster " + getName() + " learned new command: " + command);
     }
 }

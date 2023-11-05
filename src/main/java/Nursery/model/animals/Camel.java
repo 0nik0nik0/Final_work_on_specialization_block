@@ -17,5 +17,6 @@ public class Camel extends Animal {
     public void teachNewCommand(String command) {
         String updatedSkills = getSkills() + "," + command;
         setSkills(updatedSkills);
+        System.out.println("Camel " + getName() + " learned new command: " + command);
     }
 }
